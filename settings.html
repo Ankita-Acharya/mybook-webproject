@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Settings</title>
+
+     <!-- bootstrap CDNs for css and JS -->
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+     
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="stylesheet" type="text/css" href="setting.css">
+</head>
+<body>
+    
+<!--Navbar to be taken from Avinash-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow p-2 bg-white">
+        <a class="navbar-brand" href="#"><img src="logo.png" width="100" height="25" alt=""></a>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <!-- Search bar -->
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="Search">
+                <div class="input-group-append">
+                    <button class="btn btn-danger" type="button">
+                    <i class="fa fa-search"></i>
+                    </button>
+                </div>
+            </div>
+                  
+                  
+
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Blog <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#" style="color: red"><strong>Browse</strong><span class="sr-only">(current)</span></a>
+              </li>
+            </ul>
+
+            <button type="button" class="btn btn-outline-dark">Start Selling</button>
+
+         
+          </div>
+    </nav>
+
+
+    <!--Profile side taking help from Xavier-->
+            <div class="container-fluid p-5">
+                    <div class="row ">
+                <div class="col-lg-3 col-md-3 col-sm-12 pb-3" id="forProfile" style="color: #afafaf;">
+                    <div class="col-12  shadow border" id="profileContainer" style="height: 100%">
+                        <div style="text-align: center; line-height: 80%">
+                          <img class="profileImg img-responsive" src="https://weneedfun.com/wp-content/uploads/2016/07/Girls-Black-and-White-Profile-Pictures-2.jpg">
+                          <br><br>
+                          <div class="forProfile" style="margin-top: 6em ">
+                                <label>Eleanor Ezimah</label><br>
+                              <div>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star checked"></span>
+                                  <span class="fa fa-star"></span>
+                                  <span class="fa fa-star"></span>
+                                  <label><strong>3</strong>(159)</label>
+                              </div><br>
+                              <label>email@example.com</label> <br>
+                              <label>George Mason University</label>
+                          </div>
+                          
+                          <div style="line-height: 2.5;">
+                            <hr>
+                            <div class="icons">
+                              <img src="Group 368.png"><a href="#" class="pLinks">&nbsp; Profile</a><br>
+                              <img src="Group 374.png"><a href="#" class="pLinks">&nbsp; Message</a><br>
+                              <img src="Group 380.png"><a href="#" class="pLinks">&nbsp; Order History</a><br>
+                              <img src="Group 386.png"><a href="#" class="pLinks">&nbsp; Saved Items</a><br>
+                              <img src="Group 392.png"><a href="#" class="pLinks checked">&nbsp; Setting</a><br> 
+                            </div>
+                          </div>
+                          </div>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-md-9 col-sm-12">
+                     <div class="row">
+                        <div class="col-sm-12 mb-4 pb-3">
+                            <div class="col-12 shadow border pt-3" style="height: 105%">
+                                <label style="color: #afafaf;">PERSONAL DATA</label><br>
+                                <label>Use this page to update your contact information and change your password</label><br><br>
+
+                                <form>
+                                        <div class="form-row">
+                                          <div class="form-group col-md-4">
+                                            <label for="inputEmail4" >EMAIL ADDRESS</label>
+                                            <input type="email" class="form-control" id="inputEmail4" placeholder="SampleMail@mail.com" style="background-color: #f4f7ff">
+                                          </div>
+                                        </div>
+
+                                        <div class="form-row">
+                                                <div class="form-group col-md-4">
+                                                  <label for="inputCity">FIRST NAME</label>
+                                                  <input type="text" class="form-control" id="inputCity" style="background-color: #f4f7ff;">
+                                                </div>
+                                                <div class="form-group col-md-4">
+                                                  <label for="inputState">LAST NAME</label>
+                                                  <input type="text" class="form-control" id="inputCity" style="background-color: #f4f7ff">
+                                                </div>
+                                                <div class="form-group col-md-4">
+                                                  <label for="inputZip">SCHOOL</label>
+                                                  <input type="text" class="form-control" id="inputZip" style="background-color: #f4f7ff">
+                                                </div>
+                                            </div>
+
+                                            
+                                        <div class="form-row">
+                                                <div class="form-group col-md-4">
+                                                  <label for="inputCity">CURRENT PASSWORD</label>
+                                                  <input type="text" class="form-control" id="inputCity" style="background-color: #f4f7ff">
+                                                </div>
+                                                <div class="form-group col-md-4">
+                                                  <label for="inputState">NEW PASSWORD</label>
+                                                  <input type="text" class="form-control" id="inputCity" style="background-color: #f4f7ff">
+                                                </div>
+                                                <div class="form-group col-md-4">
+                                                  <label for="inputZip" class="mt-4 pt-3">Change Password</label>
+                                                </div>
+                                                <button type="submit" class="btn btn-primary" style="background-color: #ff5630 !important; border: none">Edit Information</button>
+                                            </div>
+                                      </form>
+
+                            </div>
+                        </div>
+                    </div>        
+                    <div class="row pb-5">
+                        <div class="col-12 pb-3">
+                            <div class="col-12 shadow border pt-3" style="height: 120%">
+                              <label style="color: #afafaf;">PAYMENT INFORMATION</label><br><br>
+                                <label>Use this page to update your contact information and change your password</label><br>
+                                <div class="container otherContainer">
+                                    <div class="row">
+                                    <div class="col-3"><img src="Group 402.png">&nbsp; Master card ending in 5342</div>
+                                    <div class="col-3"><label>3/30</label></div>
+                                    <div class="col-3"><a href="#">Edit</a></div>
+                                    <div class="col-3"><img src="Group 419.png"></div>
+                                </div>
+                                <div class="row">
+                                        <div class="col-3"><img src="Group 402.png">&nbsp; Master card ending in 5342</div>
+                                        <div class="col-3"><label>3/30</label></div>
+                                        <div class="col-3"><a href="#">Edit</a></div>
+                                        <div class="col-3"><img src="Group 419.png"></div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            </div>
+            </div>
+
+
+    <div class="colorstrip">
+        <div class="container foot">
+            <div class="row">
+            <div class="col-3 col-md-3 col-sm-6">
+                    <img src="logolp.png" width="150" height="45"><br><br>
+                    <span class="fa fa-twitter"><label style="margin-left: 0.7em;">Twitter</label></span>  <br>
+                    <span class="fa fa-facebook"><label style="margin-left: 0.7em;">Facebook</label></span>  <br>
+                    <span class="fa fa-instagram"><label style="margin-left: 0.7em;">Instagram</label></span>  <br>
+            </div>
+            <div class="col-3 col-md-3 col-sm-6">
+                    <a href="#" class="flink"><strong>Resources</strong></a><br>
+                    <a href="#" class="flink">Instagram</a><br>
+                    <a href="#" class="flink">Facebook</a><br>
+                    <a href="#" class="flink">Twitter</a><br>
+            </div>
+            <div class="col-3 col-md-3 col-sm-6">
+                    <a href="#" class="flink"><strong>About</strong></a><br>
+                    <a href="#" class="flink">Instagram</a><br>
+                    <a href="#" class="flink">Facebook</a><br>
+                    <a href="#" class="flink">Twitter</a><br>
+            </div>
+            <div class="col-3 col-md-3 col-sm-6">
+                    <a href="#" class="flink"><strong>Resources</strong></a><br>
+                    <a href="#" class="flink">Instagram</a><br>
+                    <a href="#" class="flink">Facebook</a><br>
+                    <a href="#" class="flink">Twitter</a><br>
+            </div>
+        </div>
+        </div>
+        </div>
+
+    
+
+</body>
+</html>

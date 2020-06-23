@@ -1,0 +1,45 @@
+.body {
+  background-color: #f9f9f9;
+}
+.navbar-brand {
+  margin-left: 5%;
+}
+.ml-auto {
+  margin-left: auto !important;
+}
+.btn {
+  border-radius: 0 !important;
+}
+.profileImg{
+  position: absolute;
+  border-radius:50%;
+  width: 4em;
+  margin: 2em 1em 0 -1.5em;
+}
+.checked {
+  color: orange;
+ }
+ .container.otherContainer { 
+padding-right: 20%;
+}
+.colorstrip{
+  width: 100%; height: 20em;
+  background-color: #081012;
+  color: white;
+}
+.flink{
+  color: #f9f9f9;
+}
+.container.foot{
+  padding-top: 5%;
+}
+.pLinks{
+  color: #afafaf;
+  text-decoration: none !important;
+}
+input[type=text], input[type=email]{
+  border-radius: 0;
+}
+.pLinks.checked{
+  color: #d63548;
+}

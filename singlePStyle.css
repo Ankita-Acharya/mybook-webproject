@@ -1,0 +1,82 @@
+.body{
+    background-color: #f9f9f9; 
+}
+
+
+
+
+.navbar-brand{
+    margin-left: 5%;
+}
+.ml-auto{
+    margin-left: auto !important
+}
+.btn{
+    border-radius: 0 !important;
+}
+.arrow h4{
+    top: 0.2em;
+    margin-left: 7em;
+    font-size: 0.87em; 
+}
+.row .items{
+    padding-top: 2em;
+    margin-left: 7em;  
+}
+.row .bigItem{
+    padding-top: 2em;
+    /* margin-left: 3.5em; */
+}
+.carousel-item{
+    width: 100%;
+    height: auto;
+}
+p{
+    text-align: justify;
+    margin-right: 7em;  
+}
+.description { display: table-row; }
+.profile-picture {
+    display: table-cell; 
+    vertical-align: top; 
+    margin-right: 10px;
+  }
+  .details { display: table-cell; vertical-align: top; }
+
+  .checked {
+    color: orange;
+   }
+
+/* For the footer */
+
+  
+  .colorstrip{
+    width: 100%; height: 25em;
+    border-style: solid;
+    border-color: black;
+    background-color: #081012;
+    color: white;
+  }
+  
+.btn-danger {
+    background-color:#ff5630; 
+}
+.btn-light{
+    color: #adaeb0;
+}
+a{
+    color: white;
+}
+.row.footer{
+    margin-top: 5em;
+    line-height: 2em;
+}
+.row.footer1{
+    margin-top: -3em !important;
+    margin-right: 5em; 
+}
+.input-group{   
+  width:20em;
+  margin-left: 20em;
+  }
+

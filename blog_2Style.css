@@ -1,0 +1,15 @@
+.body {
+    background-color: #f9f9f9;
+  }
+  .navbar-brand {
+    margin-left: 5%;
+  }
+  .ml-auto {
+    margin-left: auto !important;
+  }
+  .btn {
+    border-radius: 0 !important;
+  }
+  .checked {
+    color: orange;
+   }
